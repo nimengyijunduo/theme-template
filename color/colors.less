@@ -1,0 +1,126 @@
+@plugin './palette.js';
+
+// 品牌色
+@qysblue-1: color-palette(@qysblue-6, 1);
+@qysblue-2: color-palette(@qysblue-6, 2);
+@qysblue-3: color-palette(@qysblue-6, 3);
+@qysblue-4: color-palette(@qysblue-6, 4);
+@qysblue-5: color-palette(@qysblue-6, 5);
+@qysblue-6: #015BED;
+
+// 错误 Danger
+@orangered-1: color-palette(@orangered-6, 1);
+@orangered-2: color-palette(@orangered-6, 2);
+@orangered-3: color-palette(@orangered-6, 3);
+@orangered-4: color-palette(@orangered-6, 4);
+@orangered-5: color-palette(@orangered-6, 5);
+@orangered-6: #ed521f;
+
+// 提示 Warning
+@yellow-1: color-palette(@yellow-6, 1);
+@yellow-2: color-palette(@yellow-6, 2);
+@yellow-3: color-palette(@yellow-6, 3);
+@yellow-4: color-palette(@yellow-6, 4);
+@yellow-5: color-palette(@yellow-6, 5);
+@yellow-6: #F0A128;
+
+// 成功 Success
+@green-1: color-palette(@green-6, 1);
+@green-2: color-palette(@green-6, 2);
+@green-3: color-palette(@green-6, 3);
+@green-4: color-palette(@green-6, 4);
+@green-5: color-palette(@green-6, 5);
+@green-6: #2bb353 ;
+
+// 其他系统颜色 - 氰基蓝 Cyanyl blue
+@cyan-1: color-palette(@cyan-6, 1);
+@cyan-2: color-palette(@cyan-6, 2);
+@cyan-3: color-palette(@cyan-6, 3);
+@cyan-4: color-palette(@cyan-6, 4);
+@cyan-5: color-palette(@cyan-6, 5);
+@cyan-6: #6BB6C0;
+
+// 薰衣草紫 Lavender Purple
+@purple-1: color-palette(@purple-6, 1);
+@purple-2: color-palette(@purple-6, 2);
+@purple-3: color-palette(@purple-6, 3);
+@purple-4: color-palette(@purple-6, 4);
+@purple-5: color-palette(@purple-6, 5);
+@purple-6: #AD96E6;
+
+// 填充 - 常规浅色背景
+@gray-1: #F7F8FB;
+// 边框 - 浅 或者 填充 - 特殊背景/白底hover悬浮
+@gray-2: #F0F2F7;
+// 填充 - 特殊背景
+@gray-3: #E1E4EB;
+// 边框（一般）、填充（浅色图标）、文字（置灰信息/禁用）
+@gray-4: #CCD0D9;
+// 填充（常规图标）、文字（文本说明）
+@gray-5: #9BA3B0;
+// 填充（强调/图标/特殊场景）、文字（次要信息）
+@gray-6: #667183;
+// 文字 - 次强调/正文标题/文本
+@gray-7: #334259;
+// 文字 - 强调/正文标题
+@gray-8: #001330;
+
+// 命名具有具体含义，从预置色板取值
+@primary-1: rgb(var(~'@{qys-cssvars-prefix}-qysblue-1'));
+@primary-2: rgb(var(~'@{qys-cssvars-prefix}-qysblue-2'));
+@primary-3: rgb(var(~'@{qys-cssvars-prefix}-qysblue-3'));
+@primary-4: rgb(var(~'@{qys-cssvars-prefix}-qysblue-4'));
+@primary-5: rgb(var(~'@{qys-cssvars-prefix}-qysblue-5'));
+@primary-6: rgb(var(~'@{qys-cssvars-prefix}-qysblue-6'));
+@primary-7: rgb(var(~'@{qys-cssvars-prefix}-qysblue-7'));
+@primary-8: rgb(var(~'@{qys-cssvars-prefix}-qysblue-8'));
+@primary-9: rgb(var(~'@{qys-cssvars-prefix}-qysblue-9'));
+@primary-10: rgb(var(~'@{qys-cssvars-prefix}-qysblue-10'));
+
+// 成功色
+@success-1: rgb(var(~'@{qys-cssvars-prefix}-green-1'));
+@success-2: rgb(var(~'@{qys-cssvars-prefix}-green-2'));
+@success-3: rgb(var(~'@{qys-cssvars-prefix}-green-3'));
+@success-4: rgb(var(~'@{qys-cssvars-prefix}-green-4'));
+@success-5: rgb(var(~'@{qys-cssvars-prefix}-green-5'));
+@success-6: rgb(var(~'@{qys-cssvars-prefix}-green-6'));
+@success-7: rgb(var(~'@{qys-cssvars-prefix}-green-7'));
+@success-8: rgb(var(~'@{qys-cssvars-prefix}-green-8'));
+@success-9: rgb(var(~'@{qys-cssvars-prefix}-green-9'));
+@success-10: rgb(var(~'@{qys-cssvars-prefix}-green-10'));
+
+// 错误色
+@danger-1: rgb(var(~'@{qys-cssvars-prefix}-red-1'));
+@danger-2: rgb(var(~'@{qys-cssvars-prefix}-red-2'));
+@danger-3: rgb(var(~'@{qys-cssvars-prefix}-red-3'));
+@danger-4: rgb(var(~'@{qys-cssvars-prefix}-red-4'));
+@danger-5: rgb(var(~'@{qys-cssvars-prefix}-red-5'));
+@danger-6: rgb(var(~'@{qys-cssvars-prefix}-red-6'));
+@danger-7: rgb(var(~'@{qys-cssvars-prefix}-red-7'));
+@danger-8: rgb(var(~'@{qys-cssvars-prefix}-red-8'));
+@danger-9: rgb(var(~'@{qys-cssvars-prefix}-red-9'));
+@danger-10: rgb(var(~'@{qys-cssvars-prefix}-red-10'));
+
+// 警示色
+@warning-1: rgb(var(~'@{qys-cssvars-prefix}-orange-1'));
+@warning-2: rgb(var(~'@{qys-cssvars-prefix}-orange-2'));
+@warning-3: rgb(var(~'@{qys-cssvars-prefix}-orange-3'));
+@warning-4: rgb(var(~'@{qys-cssvars-prefix}-orange-4'));
+@warning-5: rgb(var(~'@{qys-cssvars-prefix}-orange-5'));
+@warning-6: rgb(var(~'@{qys-cssvars-prefix}-orange-6'));
+@warning-7: rgb(var(~'@{qys-cssvars-prefix}-orange-7'));
+@warning-8: rgb(var(~'@{qys-cssvars-prefix}-orange-8'));
+@warning-9: rgb(var(~'@{qys-cssvars-prefix}-orange-9'));
+@warning-10: rgb(var(~'@{qys-cssvars-prefix}-orange-10'));
+
+// 链接色
+@link-1: rgb(var(~'@{qys-cssvars-prefix}-qysblue-1'));
+@link-2: rgb(var(~'@{qys-cssvars-prefix}-qysblue-2'));
+@link-3: rgb(var(~'@{qys-cssvars-prefix}-qysblue-3'));
+@link-4: rgb(var(~'@{qys-cssvars-prefix}-qysblue-4'));
+@link-5: rgb(var(~'@{qys-cssvars-prefix}-qysblue-5'));
+@link-6: rgb(var(~'@{qys-cssvars-prefix}-qysblue-6'));
+@link-7: rgb(var(~'@{qys-cssvars-prefix}-qysblue-7'));
+@link-8: rgb(var(~'@{qys-cssvars-prefix}-qysblue-8'));
+@link-9: rgb(var(~'@{qys-cssvars-prefix}-qysblue-9'));
+@link-10: rgb(var(~'@{qys-cssvars-prefix}-qysblue-10'));
